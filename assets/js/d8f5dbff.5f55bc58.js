@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkfragstack_s_4=self.webpackChunkfragstack_s_4||[]).push([[2473],{4939:function(e){e.exports=JSON.parse('{"permalink":"/Website/blog/tags/facebook","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
