@@ -9,7 +9,7 @@ const config = {
   title: 'FragStack',
   tagline: 'Welcome to FragStack Project',
   url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
+  baseUrl: '/Website/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
