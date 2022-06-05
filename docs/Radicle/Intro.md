@@ -9,6 +9,15 @@ Radicle is an open-source peer-to-peer software collaboration tool. It's similar
 
 More details can be found here [https://radicle.xyz/](https://radicle.xyz/).
 
+
+:::note
+FragStack Website is pushed to `maple.radicle.garden`:
+
+   * (web) https://app.radicle.network/seeds/maple.radicle.garden/rad:git:hnrkqgxwcc6131omr5cmwbanshdy796cn6o3o
+   * (git) https://maple.radicle.garden/hnrkqgxwcc6131omr5cmwbanshdy796cn6o3o.git
+:::
+
+
 ## How to Install Radicle?
 
 :::note
@@ -77,6 +86,8 @@ git checkout --branch my-proposed-changes
 git add *
 git commit -m'my proposed changes'
 ```
+If you're maintaining your report on github as well, you'd want to do a `git push` here.
+
 Now create a radicle patch by using `upstream`:
 
 ```
@@ -90,7 +101,15 @@ Use `upstream patch update` to update the patch after creating it.
 You'll need to share your Peer ID with the delegate so that they can track your patch in Upstream.
 :::
 
-:::note
-Radicle repo for this project:
-:::
- 
+
+## How to Apply a Patch
+
+If you go to the Radicle client, you can click the patch tab and click on `Merge Patch`. It will give you the commands you need to do a merge.
+
+Here are an example commands:
+
+```
+upstream patch fetch hybjocw8c9k7f7dh38ybsx6d33bz5p54q9nba3i5gt5qt6di887hwk/docsUpdate
+git merge radicle-patch/hybjocw8c9k7f7dh38ybsx6d33bz5p54q9nba3i5gt5qt6di887hwk/docsUpdate
+rad push
+```
