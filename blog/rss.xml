@@ -9,7 +9,7 @@
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <item>
-            <title><![CDATA[Sample Post - Welcome]]></title>
+            <title><![CDATA[Welcome]]></title>
             <link>https://your-docusaurus-test-site.com/Website/blog/welcome</link>
             <guid>welcome</guid>
             <pubDate>Thu, 26 Aug 2021 00:00:00 GMT</pubDate>
@@ -20,7 +20,7 @@
             <category>docusaurus</category>
         </item>
         <item>
-            <title><![CDATA[Sample Post - MDX Blog Post]]></title>
+            <title><![CDATA[MDX Blog Post]]></title>
             <link>https://your-docusaurus-test-site.com/Website/blog/mdx-blog-post</link>
             <guid>mdx-blog-post</guid>
             <pubDate>Sun, 01 Aug 2021 00:00:00 GMT</pubDate>
@@ -29,7 +29,7 @@
             <category>docusaurus</category>
         </item>
         <item>
-            <title><![CDATA[Sample Post - Long Blog Post]]></title>
+            <title><![CDATA[Long Blog Post]]></title>
             <link>https://your-docusaurus-test-site.com/Website/blog/long-blog-post</link>
             <guid>long-blog-post</guid>
             <pubDate>Wed, 29 May 2019 00:00:00 GMT</pubDate>
@@ -39,7 +39,7 @@
             <category>docusaurus</category>
         </item>
         <item>
-            <title><![CDATA[Sample Post - First Blog Post]]></title>
+            <title><![CDATA[First Blog Post]]></title>
             <link>https://your-docusaurus-test-site.com/Website/blog/first-blog-post</link>
             <guid>first-blog-post</guid>
             <pubDate>Tue, 28 May 2019 00:00:00 GMT</pubDate>
