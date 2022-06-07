@@ -24,7 +24,7 @@ You will need IPFS and IPFS Cluster Services running to use IPFS Cluster Ctl.
  
 
 ### Linux Installation
-* After you downloaded the above package. Run `ipfs-cluster-ctl_v1.0.1_linux-amd64.tar.gz`
+* After you downloaded the above package. Run `tar -xvf ipfs-cluster-ctl_v1.0.1_linux-amd64.tar.gz`
 * Run `cd ipfs-cluster-ctl`
 * Copy the `ipfs-cluster-ctl` to the bin folder, ex. `cp ipfs-cluster-ctl /usr/local/bin/`
 * You can verify installation by running `ipfs-cluster-ctl --version`
